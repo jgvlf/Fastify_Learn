@@ -25,5 +25,6 @@ module.exports = async function (fastify, opts) {[
         }
         reply.code(404).send(emptyResponse)
       }
-    })]
+    })
+  ]
 }
